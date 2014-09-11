@@ -27,23 +27,21 @@
 
 		.zoom img::selection { background-color: transparent; }
 
-		#ex2 img:hover { cursor: url(grab.cur), default; }
-		#ex2 img:active { cursor: url(grabbed.cur), default; }
+	
 	</style>
 	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
 	<script src='js/jquery.zoom.js'></script>
 	<script>
 		$(document).ready(function(){
-			$('#ex1').zoom();
-			$('#ex2').zoom({ on:'grab' });
+		
 			$('#ex3').zoom({ on:'click' });			 
-			$('#ex4').zoom({ on:'toggle' });
+		
 		});
 	</script>
 </head>
 <body>
 
-	<span class='zoom' id='ex3'>
+	<span class='zoom' id='ext3'>
 		<img src='img/dessin.png' width='834' height='600' alt='Carte'/>
 		
 	</span>
